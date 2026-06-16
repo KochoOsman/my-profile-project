@@ -171,6 +171,31 @@ header {
     padding: 80px 40px;
 }
 
+
+.profile-images-div{
+    /* background-size: cover;
+    background-position: center; */
+    background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475');
+
+
+}
+.profile-images-div {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 40px;
+    background: #1e293b;
+    padding: 10px;
+   
+}
+
+.profile-images-div img {
+    width: 35%;
+    height: 35%;
+    border-radius: 50%;
+    border: 3px solid #070707;
+}   
+
 .about-content {
     max-width: 1000px;
     margin: auto;
@@ -184,6 +209,18 @@ header {
 .about p {
     margin-bottom: 20px;
     font-size: 18px;
+}
+
+
+.about-section{
+    background-color: #1e293b;
+    padding: 20px;
+    border: 1px solid #eff0f2;
+    margin-top: 20px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 50px;
+     border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 0px;
 }
 
 /* CONTACT */
