@@ -325,8 +325,18 @@ footer {
 .social-icons a {
     font-size: 50px;
     margin: 0 15px;
-    color: #00ff00; /* Change if your footer background is white */
+    /* color: #00ff00; /* Change if your footer background is white */ */
     text-decoration: none;
+}
+
+.facebook{
+    color: blue;
+}
+.whatsapp{
+    color: green;
+}
+.linkedin{
+    color: blue;
 }
 
 .social-icons a:hover {
