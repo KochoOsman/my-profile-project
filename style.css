@@ -277,6 +277,27 @@ footer {
     padding: 20px;
 }
 
+
+/*footer {
+    text-align: center;
+    padding: 20px;
+}*/
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    font-size: 28px;
+    margin: 0 10px;
+    color: white; /* Change if your footer background is white */
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    opacity: 0.7;
+}
+
 /* RESPONSIVE */
 
 @media(max-width: 768px) {
