@@ -329,13 +329,13 @@ footer {
     text-decoration: none;
 }
 
-.facebook{
+.social-icons .facebook{
     color: blue;
 }
-.whatsapp{
+.social-icons .whatsapp{
     color: green;
 }
-.linkedin{
+.social-icons .linkedin{
     color: blue;
 }
 
