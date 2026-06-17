@@ -288,8 +288,8 @@ footer {
 }
 
 .social-icons a {
-    font-size: 28px;
-    margin: 0 10px;
+    font-size: 38px;
+    margin: 10 10px;
     color: white; /* Change if your footer background is white */
     text-decoration: none;
 }
