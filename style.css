@@ -21,6 +21,57 @@ header {
     z-index: 1000;
 }
 
+
+
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  background: url("your-image.jpg") center/cover no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 60px;
+}
+
+/* dark overlay */
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.45);
+}
+
+/* text content */
+.hero-content {
+  position: relative;
+  color: white;
+  max-width: 600px;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 15px;
+  line-height: 1.1;
+}
+
+.hero-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  opacity: 0.95;
+}
+
+
+
+
+
+
+
+
 .navbar {
     display: flex;
     justify-content: space-between;
